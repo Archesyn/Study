@@ -11,13 +11,11 @@ namespace Start
     {
         enum colours { Red, Green, Blue, Purple, pink, orange, yellow, black, white };
     }
-
     public class Animal
     {
         public string name;
         public int age;
     }
-
     class Program
     {
         struct Person
@@ -26,7 +24,6 @@ namespace Start
             public int age;
             public double height;
         }
-
         static void Main(string[] args)
         {
             {
@@ -40,7 +37,6 @@ namespace Start
                 a.age = 23;
                 a.height = 5.11;
             }
-
             /*
             int a = 1;
             double b = 10;
