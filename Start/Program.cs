@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Start
 {
-
     public class enums
-
     {
         enum colours { Red, Green, Blue, Purple };
-
     }
     public class Animal
     {
@@ -19,14 +16,12 @@ namespace Start
         public int age;
     }
     class Program
-
     {
         struct Person
         {
             public string name;
             public int age;
             public double height;
-            
         }
         static void Main(string[] args)
         {
@@ -41,7 +36,6 @@ namespace Start
                 a.age = 21;
                 a.height = 5.8;
             }
-
             /*
             int a = 1;
             double b = 10;
