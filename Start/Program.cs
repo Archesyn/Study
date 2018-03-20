@@ -8,7 +8,7 @@ namespace Start
 {
     public class enums
     {
-        enum colours { Red, Green, Blue, Purple };
+        enum colours { Red, Green, Blue, Purple, pink, orange, yellow, black, white };
     }
     public class Animal
     {
@@ -19,7 +19,7 @@ namespace Start
     {
         struct Person
         {
-            public string name;
+            public string birthname;
             public int age;
             public double height;
         }
@@ -28,13 +28,13 @@ namespace Start
             {
                 Animal jack = new Animal();
                 jack.name = "Jack";
-                jack.age = 4;
+                jack.age = 5;
                 Console.WriteLine(jack.name);
 
                 Person a;
                 a.name = "George";
-                a.age = 21;
-                a.height = 5.8;
+                a.age = 23;
+                a.height = 5.11;
             }
             /*
             int a = 1;
