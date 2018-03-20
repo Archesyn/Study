@@ -22,7 +22,7 @@ namespace Start
     {
         struct Person
         {
-            public string birthname;
+            public string name;
             public int age;
             public double height;
         }
