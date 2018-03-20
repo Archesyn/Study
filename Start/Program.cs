@@ -6,15 +6,18 @@ using System.Threading.Tasks;
 
 namespace Start
 {
+    //Why have a new class that contains an enum and nothing else, whats the point?
     public class enums
     {
         enum colours { Red, Green, Blue, Purple, pink, orange, yellow, black, white };
     }
+
     public class Animal
     {
         public string name;
         public int age;
     }
+
     class Program
     {
         struct Person
@@ -23,6 +26,7 @@ namespace Start
             public int age;
             public double height;
         }
+
         static void Main(string[] args)
         {
             {
@@ -30,12 +34,13 @@ namespace Start
                 jack.name = "Jack";
                 jack.age = 5;
                 Console.WriteLine(jack.name);
-
+//Why a? could it be a better name?
                 Person a;
                 a.name = "George";
                 a.age = 23;
                 a.height = 5.11;
             }
+
             /*
             int a = 1;
             double b = 10;
